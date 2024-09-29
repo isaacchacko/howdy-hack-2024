@@ -1,0 +1,5 @@
+this holds different tools that i have access to on my local machine that i dont know will hold for all machines
+- ffmpeg (convert video file types to cv2 acceptable)
+- nltk
+    - punkt_tab
+    - averaged_perceptron_tagger_eng

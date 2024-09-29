@@ -1,0 +1,60 @@
+/* frontend/app/page.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom right, #f9f0d9, #f0e8d9); /* Cream pastel gradient */
+    color: #6b4f3b; /* Soft brown for text */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    padding: 40px;
+    border: 5px solid #d19a6a; /* Light brown border */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh; /* Ensure full height */
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Soft shadow */
+}
+
+.graphContainer {
+    width: 80%;
+    max-width: 800px;
+    max-height: 400px;
+    position: relative;
+    margin-bottom: 20px;
+    border: 2px solid #d19a6a; /* Light brown border */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    border-radius: 10px;
+    padding: 10px; /* Added padding */
+}
+
+.imagePopup {
+    width: 960px; /* Set width to match PowerPoint slide */
+    height: 720px; /* Set height to match PowerPoint slide */
+    padding: 10px;
+    border: 3px solid #d19a6a; /* Light brown border */
+    border-radius: 5px;
+    background-color: #fff7e1; /* Light cream background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    overflow: hidden; /* Hide overflow */
+}
+
+.imagePopup img {
+    max-width: 100%;
+    max-height: 100%; /* Ensure it fits within the box */
+    object-fit: cover; /* Resize image to cover the box while maintaining aspect ratio */
+    border-radius: 5px;
+}
+
+
+
+.chartjs-render-monitor {
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+}
